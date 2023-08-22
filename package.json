@@ -1,0 +1,22 @@
+{
+  "name": "checkout-page-master",
+  "version": "1.0.0",
+  "description": "solucion al reto de devchallenges",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juana-89/checkout-page-master.git"
+  },
+  "author": "Juana Llanje",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Juana-89/checkout-page-master/issues"
+  },
+  "homepage": "https://github.com/Juana-89/checkout-page-master#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
