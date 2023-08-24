@@ -9,33 +9,53 @@
   <link rel="icon" href="./assets/devchallenges.png" />
   <link rel="stylesheet" href="../dist/output.css" />
   <link rel="stylesheet" href="./input.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body class="font-montserrat">
-  <section class="w-full max-w-xs">
+  <section class="w-full max-w-xs flex flex-start space-between">
+    <!-- <div class="w-96"> -->
     <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-      <div class="mb-4">
-        <h1 class="text-3xl font-bold mb-8">Checkout</h1>
-        <h2>Contact infomation</h2>
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
-          E-mail
-        </label>
-        <input
-          class="block w-full rounded-md border py-1.5 text-gray-900 shadow-sm placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-          type="text" placeholder="Enter your email...">
-      </div>
+      <h1 class="text-3xl font-bold mb-8">Checkout</h1>
       <div class="mb-6">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
-          Phone
-        </label>
-        <input class="block w-full rounded-md border py-1.5 text-gray-900 shadow-sm placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="Enter your phone...">
-
+        <h2 class="text-lg mb-4 font-montserrat">Contact infomation</h2>
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+            E-mail
+          </label>
+          <div class="flex border-solid border-2 p-1 rounded-lg items-center	">
+            <span class="material-symbols-outlined text-gray-400   inline-block mr-1">
+              mail
+            </span>
+            <input
+              class="block w-full border-none py-1.5 text-gray-900 shadow-sm outline-none placeholder:text-gray-400  sm:text-sm sm:leading-6"
+              type="text" placeholder="Enter your email...">
+          </div>
+        </div>
+        <div class="mb-6">
+          <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+              Phone
+            </label>
+            <div class="flex border-solid border-2 p-1 rounded-lg items-center	">
+              <span class="material-symbols-outlined text-gray-400   inline-block mr-1">
+                call
+              </span>
+              <input
+                class="block w-full border-none py-1.5 text-gray-900 shadow-sm outline-none placeholder:text-gray-400  sm:text-sm sm:leading-6"
+                type="text" placeholder="Enter your phone...">
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
       <button
         class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md shadow-md transition duration-500 ease-in-out transform hover:-translate-x-1">
         Continue
       </button>
     </form>
+    <!-- </div> -->
   </section>
 </body>
 
