@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1,
@@ -7,12 +8,35 @@
   <title>Checkout</title>
   <link rel="icon" href="./assets/devchallenges.png" />
   <link rel="stylesheet" href="../dist/output.css" />
+  <link rel="stylesheet" href="./input.css" />
 </head>
-<body class="bg-blue-500">
-  <h1>Checkout</h1>
-  <h2>Contact infomation</h2>
-  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md shadow-md transition duration-500 ease-in-out transform hover:-translate-x-1">
-    Enviar
-  </button>
+
+<body class="font-montserrat">
+  <section class="w-full max-w-xs">
+    <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+      <div class="mb-4">
+        <h1 class="text-3xl font-bold mb-8">Checkout</h1>
+        <h2>Contact infomation</h2>
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+          E-mail
+        </label>
+        <input
+          class="block w-full rounded-md border py-1.5 text-gray-900 shadow-sm placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+          type="text" placeholder="Enter your email...">
+      </div>
+      <div class="mb-6">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+          Phone
+        </label>
+        <input class="block w-full rounded-md border py-1.5 text-gray-900 shadow-sm placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="Enter your phone...">
+
+      </div>
+      <button
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md shadow-md transition duration-500 ease-in-out transform hover:-translate-x-1">
+        Continue
+      </button>
+    </form>
+  </section>
 </body>
+
 </html>
