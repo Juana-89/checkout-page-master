@@ -37,12 +37,12 @@
 <!-- OVERVIEW -->
 
 ## Overview
-<text align="center">
+<div align="center">
 
 ![screenshot](https://i.ibb.co/Hq7xhLz/image-226-8.png)<br/>
 ![screenshot](https://i.ibb.co/nCKBbL1/image26-8.png)
 
-</text>
+</div>
 <br>
 
 - What was your experience? I can say you that my experience was gratifying.
