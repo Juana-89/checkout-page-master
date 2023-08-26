@@ -4,8 +4,8 @@
   "description": "solucion al reto de devchallenges",
   "main": "src/index.html",
   "scripts": {
-    "build:tailwind": "npx tailwindcss build -o ./dist/output.css",
-    "watch:tailwind": "postcss ./src/input.css -o ./dist/output.css --watch"
+    "build:tailwind": "npx tailwindcss build -o ./src/output.css",
+    "watch:tailwind": "postcss ./src/input.css -o ./src/output.css --watch"
   },
   "build:css": "postcss input.css -o src/css/input/styles.css",
   "repository": {
