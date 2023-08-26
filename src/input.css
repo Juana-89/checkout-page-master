@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .font-montserrat {
     font-family: 'Montserrat', sans-serif;
     color: #4E5150;
-
   }
 
   .material-symbols-outlined {
