@@ -86,4 +86,4 @@ $ npm start
 - [Marked - a markdown parser](https://github.com/chjj/marked)
 
 ## Contact
-- GitHub [@your-username](https://github.com/Juana-89)
+- GitHub [@Juana-89](https://github.com/Juana-89)
